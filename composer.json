@@ -1,7 +1,7 @@
 {
 	"name" : "luyadev/luya-legacy",
 	"description" : "This repo contains mixed outdated content like blocks.",
-	"type" : "project",
+	"type" : "luya-extension",
 	"keywords" : ["luya"],
 	"license": "MIT",
 	"homepage" : "https://luya.io",
