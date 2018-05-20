@@ -6,6 +6,7 @@ use Yii;
 use luya\TagParser;
 use luya\legacy\Module;
 use luya\legacy\blockgroups\BootstrapGroup;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * Bootstrap inline Block with Markdown
@@ -39,7 +40,7 @@ class BootstrapInlineTextBlock extends \luya\cms\base\PhpBlock
 
     public function blockGroup()
     {
-        return BootstrapGroup::className();
+        return TextGroup::class;
     }
 
 

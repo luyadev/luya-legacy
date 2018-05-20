@@ -7,6 +7,7 @@ use luya\cms\helpers\BlockHelper;
 use luya\TagParser;
 use luya\legacy\blockgroups\BootstrapGroup;
 use luya\legacy\Module;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * Positioning of images and mark down text based on Bootstrap 4 columns, image shapes are also available out of the box.
@@ -30,7 +31,7 @@ class BootstrapImageTextBlock extends \luya\cms\base\PhpBlock
 
     public function blockGroup()
     {
-        return BootstrapGroup::className();
+        return TextGroup::class;
     }
 
     public function icon()

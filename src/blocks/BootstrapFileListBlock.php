@@ -5,6 +5,7 @@ namespace luya\legacy\blocks;
 use luya\cms\helpers\BlockHelper;
 use luya\legacy\Module;
 use luya\legacy\blockgroups\BootstrapGroup;
+use luya\cms\frontend\blockgroups\MediaGroup;
 
 /**
  * Block created with Luya Block Creator Version 1.0.0-beta6-dev at 02.08.2016 16:34
@@ -35,7 +36,7 @@ class BootstrapFileListBlock extends \luya\cms\base\PhpBlock
 
     public function blockGroup()
     {
-        return BootstrapGroup::className();
+        return MediaGroup::class;
     }
 
     public function icon()

@@ -5,6 +5,7 @@ namespace luya\legacy\blocks;
 use Yii;
 use luya\legacy\blockgroups\BootstrapGroup;
 use luya\legacy\Module;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * Block created with Luya Block Creator Version 1.0.0-beta8-dev at 04.08.2016 12:19
@@ -36,7 +37,7 @@ class BootstrapInlineTextWrapperBlock extends \luya\cms\base\PhpBlock
     
     public function blockGroup()
     {
-        return BootstrapGroup::className();
+        return TextGroup::class;
     }
 
     public function icon()
