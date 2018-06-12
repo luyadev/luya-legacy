@@ -9,8 +9,20 @@ BootstrapImageTextBlock:
 ```sh
 ./vendor/bin/luya cms/block/migrate \\bootstrap4\\blocks\\BootstrapImageTextBlock \\legacy\\blocks\\BootstrapImageTextBlock
 ```
-BootstrapFileListBlock
+BootstrapFileListBlock:
 
 ```sh
 ./vendor/bin/luya cms/block/migrate \\bootstrap4\\blocks\\BootstrapFileListBlock \\legacy\\blocks\\BootstrapFileListBlock
+```
+
+BootstrapInlineTextBlock:
+
+```sh
+./vendor/bin/luya cms/block/migrate \\bootstrap4\\blocks\\BootstrapInlineTextBlock \\legacy\\blocks\\BootstrapInlineTextBlock
+```
+
+BootstrapInlineTextWrapperBlock:
+
+```sh
+./vendor/bin/luya cms/block/migrate \\bootstrap4\\blocks\\BootstrapInlineTextWrapperBlock \\legacy\\blocks\\BootstrapInlineTextWrapperBlock
 ```
