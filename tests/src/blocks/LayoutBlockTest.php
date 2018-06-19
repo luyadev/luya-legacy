@@ -8,6 +8,11 @@ class LayoutBlockTest extends BaseLegacyBlockTestCase
 {
     public $blockClass = 'luya\legacy\blocks\LayoutBlock';
 
+    public function testLabel()
+    {
+        $this->assertSame('Layout: Row', $this->block->name());
+    }
+    
     public function testEmptyRender()
     {
         $this->assertSame('<div class="row"></div>', $this->renderFrontendNoSpace());

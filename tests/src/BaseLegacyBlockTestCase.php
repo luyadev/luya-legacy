@@ -11,6 +11,7 @@ class BaseLegacyBlockTestCase extends CmsBlockTestCase
         return [
             'id' => 'carouselBlockTest',
             'basePath' => dirname(__DIR__) . '/../',
+            'language' => 'en',
             'components' => [
                 'assetManager' => [
                     'basePath' => dirname(__DIR__) . '/assets',
